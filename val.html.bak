@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> 
+<title>First Class</title>
+<meta />
+<style>
+#butter{
+margin-top:20px;
+}
+
+#center{
+text-align:center;
+}
+#bg-teal{
+background-color:teal;
+color:white;
+}
+</style>
+</head>
+
+
+<body>
+<div>
+This is a <br/> simple HTML code!
+</div>
+
+<div>this is the second division</div>
+
+<div>
+<!-- Please don't delete this div below-->
+<div>Div One</div>
+<div>Div Two</div>
+</div>
+<p>Paragraph</p>
+<h1>Heading 1</h1>
+<h6>Heading 6</h6>
+
+<!--
+<input type='text' placeholder='Enter Full Name'/><br/><br/>
+<input type='email' placeholder='Enter Email'/><br/><br/>
+<input type='number' placeholder='Enter Age'/><br/><br/>
+<input type='password' placeholder='Enter Password'/><br/><br/>
+
+<div><input type='color' /></div>
+<div><input type='date' /></div>
+<div><input type='time' /></div>
+<div id='butter'><input type='submit' value='Login Now' /></div>
+-->
+
+<table border='1' width='700px'>
+<tr>
+<th>SN</th>
+<th>Name</th>
+<th>Age</th>
+<th>school</th>
+<th>State</th>
+</tr>
+
+<tr id='center'>
+<td>1</td>
+<td>Afams Val</td>
+<td>30</td>
+<td>Unizik</td>
+<td>Anambra</td>
+</tr>
+<tr id='center'>
+<td>2</td>
+<td id='bg-teal'>Afams Val</td>
+<td>26</td>
+<td>MOUAU</td>
+<td>Abia</td>
+</tr>
+<tr id='center'>
+<td>3</td>
+<td>Afams Val</td>
+<td>28</td>
+<td>UNN</td>
+<td>Enugu</td>
+</tr>
+
+
+
+</table>
+
+
+
+
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,99 @@
+<!Doctype html>
+<html>
+
+<head>
+<title>Contact Form</title>
+<style>
+.wrapper{
+background-color:#0E0;
+}
+.center{
+text-align:center;
+}
+
+.border-1{
+border:1px solid black;
+margin-bottom:2px;
+}
+
+.border-5{
+border:5px solid black;
+}
+
+.d-flex{
+display:flex;
+}
+
+.asterisk{
+color:red;
+font-weight:bold;
+}
+
+.m-top{
+margin-top:30px;
+}
+
+.m-right{
+margin-right:10px;
+}
+
+</style>
+</head>
+
+
+<body>
+<div class='wrapper'>
+<header class='center'>
+<h1>Complaints</h1>
+<p>Help us improve our service</p>
+<div class='border-1'></></div>
+<div class='border-5'></div>
+</header>
+
+<main>
+<section class='d-flex m-top'>
+	<div>Full Name <span class='asterisk'>*</span></div>
+	<div class='d-flex'>
+		<div class='m-right'>
+			<input type='text' /><br/>
+			<label>First</label>
+		</div>
+		<div>
+			<input type='text' /><br/>
+			<label>Last</label>
+		</div>
+	</div>
+</section>
+
+
+<section class='d-flex m-top'>
+	<div>Email <span class='asterisk'>*</span></div>
+	<div><input type='email' /></div>
+</section>
+
+<section class='d-flex m-top'>
+	<div>Phone </div>
+	<div><input type='number' /></div>
+</section>
+
+<section class='d-flex m-top'>
+	<div>Where did we go wrong? <span class='asterisk'>*</span></div>
+	<div><textarea rows='5' cols='40'></textarea></div>
+</section>
+
+</main>
+
+<!--<footer>
+copy @progfams
+</footer> -->
+</div>
+</body>
+
+
+
+
+
+
+
+
+</html>
